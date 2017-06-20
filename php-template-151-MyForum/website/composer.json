@@ -1,0 +1,13 @@
+{
+    "name": "Unsocialism/Datenbankprojekt",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Unsocialism\\": "src/"
+        }
+    },
+    "require": {
+        "swiftmailer/swiftmailer": "v5.4.*",
+        "twig/twig": "~2.0"
+    }
+}

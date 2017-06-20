@@ -1,0 +1,50 @@
+.login {
+	text-align: center;
+}
+.registrieren{
+	text-align: center;
+}
+
+
+@media screen and (max-width: 500px){
+  .small-1 {width:96%; margin-left:2%; margin-right: 2%; display: inline-block;}
+  .small-2 {width: 35%; float:right; margin-right: 2%; margin-top: 1%;}
+}
+
+@media screen and (max-width: 899px) AND (min-width: 501px){
+  .medium-1 {width: 70%; float: left; margin-left: 5%;}
+  .medium-2 {width: 20%; float: right; margin-right: 5%; margin-top: 1%;}
+  .medium-3 {width: 90%;margin-left:5%;margin-right:5%; display: inline-block;}
+}
+
+@media screen and (min-width: 900px) {
+   .large-1 {width: 60%; float: left; margin-left: 10%;}
+   .large-2 {width: 20%; float: right; margin-right: 10%; margin-top: 1%;}
+   .large-3 {width: 80%; margin-left: 10%; margin-right: 10%; display: inline-block;}
+ }
+ 
+ 
+ .yellow {
+ 	background-color: yellow;
+ }
+ 
+ .green {
+ 	background-color: green;
+ }
+ 
+ .blue {
+ 	background-color: blue;
+ }
+ 
+ .red {
+ 	background-color: red;
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
