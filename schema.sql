@@ -18,9 +18,6 @@ CREATE TABLE `like` (
   CONSTRAINT `like_ibfk_2` FOREIGN KEY (`post_id`) REFERENCES `post` (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
-INSERT INTO `like` (`id`, `user_id`, `post_id`, `isDislike`) VALUES
-(5,	6,	7,	0),
-(6,	6,	8,	1);
 
 DROP TABLE IF EXISTS `post`;
 CREATE TABLE `post` (
@@ -34,8 +31,8 @@ CREATE TABLE `post` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 INSERT INTO `post` (`id`, `user_id`, `title`, `content`) VALUES
-(7,	6,	'Test',	'Miau Miau'),
-(8,	6,	'Test2',	'Miauzzz');
+(1,	3,	'Test!',	'Miau Miau!'),
+(6,	3,	'Test2',	'Miauzzz');
 
 DROP TABLE IF EXISTS `right`;
 CREATE TABLE `right` (
@@ -66,7 +63,7 @@ CREATE TABLE `user` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 INSERT INTO `user` (`id`, `right_id`, `email`, `password`, `isActivated`, `activationCode`) VALUES
-(5,	1,	'ytreyjk@gmail.com',	'$2y$10$l4WE0jTJgWYX/xdIQrj/fuiqxTr..DUYTTE6i9vCUrDqkXAOK3l5u',	1,	'sXmB2kT049FM78u6'),
-(6,	1,	'test245342@gmail.com',	'$2y$10$Z92TfQF78v8CP8X.l1oxuepMfo2ZH5vf5EZ19DThuSPsFRF9keGTy',	1,	'WOrHSwekE5LlCo3z');
+(3,	1,	'Unsocialism.1234567890@gmail.com',	'$2y$10$yXFHsEZaJt7aqD06nzUXE.6q7b.hx2MpumJpa6.wS3aXD8BulABcW',	1,	'jnv1DOwHWWRLoGqk'),
+(4,	1,	'ytreyjk@gmail.com',	'$2y$10$8H0wdWJL28dA7/Z6kUhQeex8MLmXHsnMo6FIwfbI9Q.iyCqlNy8Xy',	1,	'DCj006wBPe2Q5Gv5');
 
--- 2017-06-23 15:04:16
+-- 2017-06-22 08:16:15
